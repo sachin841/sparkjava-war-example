@@ -4,8 +4,8 @@ pipeline {
     stages {
         stage('Clone Source') {
             steps {
-                git branch: 'main',
-                    url: 'https://github.com/your-username/your-repo.git'
+                git branch: 'master',
+                    url: 'https://github.com/sachin841/sparkjava-war-example.git'
             }
         }
 
